@@ -1,0 +1,42 @@
+{
+  "context": [
+    {
+      "role": "user",
+      "content": "My name is John and I work as a software engineer."
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, John! A software engineer, that's interesting."
+    },
+    {
+      "role": "user",
+      "content": "I'm thinking of switching careers to become a chef."
+    },
+    {
+      "role": "assistant",
+      "content": "That's a big change! What kind of food do you want to cook?"
+    },
+    {
+      "role": "user",
+      "content": "I love Italian food. But my name is not John, it's Jean."
+    }
+  ],
+  "test": [
+    {
+      "question": "What is my name?",
+      "answer": "Jean"
+    },
+    {
+      "question": "What was my profession?",
+      "answer": "software engineer"
+    },
+    {
+      "question": "What career am I considering?",
+      "answer": "chef"
+    },
+    {
+      "question": "What is my favorite cuisine?",
+      "answer": "Italian food"
+    }
+  ]
+}
